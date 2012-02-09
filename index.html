@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>index</title>
+	<meta name="author" content="Administrator" />
+	<!-- Date: 2012-02-06 -->
+	<style type="text/css">
+		[title] {color:#321; text-align:left}
+		[title=hello] {color: #123}
+		html {background: #3d3d3d}
+		h1 {color:#333333; text-align:center; font-size:45px}	
+		.clt {color:#033330; text-align: center; font-size:35px}
+		.clt td {color:#00f; font-size: 20px; padding: 15px; background:#666}
+		
+		.surface {
+			background: #e9eaea;
+			width: 460px;
+			padding: 24px 20px 20px 20px;
+			text-align: center;
+			margin: 0 auto;
+		}
+		.surface textarea {
+			resize: none;
+			outline: none;
+			width: 420px;
+			-webkit-border-radius: 5px;
+			border: 1px solid #a3a3a3
+		}
+		#surface {
+			background: #e9eaee;
+			border: 2px solid #ffffff;
+			padding: 44px 40px 20px 40px;
+			width: 460px;
+			margin: 0 auto;
+			text-align: center;
+			box-shadow: 1px 2px 6px rgba(0,0,0,0.5);
+			-webkit-box-shadow: 1px 2px 6px rgba(0,0,0,0.5);
+			-webkit-border-radius: 15px;
+			-webkit-border-bottom-right-radius: 45px
+		}
+		#surface textarea {
+			background: #fafafc;
+			border: 1px solid #a3a3a3;
+			resize: none;
+			width: 420px;
+			height: 240px;
+			outline: none;
+			color: #2f2f2f;
+			overflow: hidden
+		}
+		
+		#surface #option {
+			margin: 10px 0 0 0;
+		}
+		
+		#surface #option input {
+			margin-right: 2px;
+		}
+		#surface #option label {
+			margin-right: 6px;
+			color: #393939;
+		}
+	</style>
+<body>
+	<h1>Hello world!</h1>
+	<div id="option-check" >
+		<h2>Test CSS</h2>
+		<input type="checkbox" checked="true" id="opt_webkit" />
+		<label for="opt_webkit"><strong>WebKit</strong></label>
+	</div>
+	<div id="class_test" class="clt">
+		<p>class test</p>
+		<table border="1">
+			<tr>
+				<td>Cell A</td>
+				<td>Cell B</td>
+			</tr>
+		</table>
+	</div>
+	<div id="surface">
+		<textarea id="code" readonly="readonly"></textarea>
+		<div id="option">
+			<input type="checkbox" checked="true" id="opt_css" />
+			<label for="opt_css">CSS</label>
+		</div>
+	</div>
+	
+	<div class="surface">
+		<textarea id="text"></textarea>
+	</div>
+</body>
+</html>
+
