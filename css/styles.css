@@ -197,7 +197,7 @@ footer a:hover{
 
 .turn-page.p1{
 	 background-color:#ccc;
-	 background-image:url(../pics/cover.png);
+	 background-image:url(../pics/cover.jpg);
 	 background-size:100% 100%;
 }
 
@@ -228,7 +228,7 @@ footer a:hover{
 }
 
 .turn-page.p2 h1{
-	font-size:60px;
+	font-size:40px;
 	font-weight: normal;
 	margin:0px;
 	background-color:#111;
