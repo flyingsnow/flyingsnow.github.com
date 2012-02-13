@@ -33,7 +33,8 @@ body {
 	width:1200px;
 	height:700px;
 	position:relative;
-	margin:auto;
+	margin: auto;
+	margin-top:65px;
 }
 
 .x1024 .pages, .x1024 #controllers{
@@ -213,13 +214,13 @@ footer a:hover{
 
 .turn-page.p2{
 	font-family: District Thin;
-	background:top left url(../pics/texture.jpg);
+	background:top left url(../pics/office.jpg);
 	color:white;
 }
 
 .turn-page.p2 .page-content{
 	margin:100px 20px;
-	text-shadow:1px 1px 1px black;
+	text-shadow:1px 1px 1px grey;
 }
 
 .turn-page.p2 p{
@@ -230,8 +231,7 @@ footer a:hover{
 .turn-page.p2 h1{
 	font-size:40px;
 	font-weight: normal;
-	margin:0px;
-	background-color:#111;
+	margin-top:450px;
 	float:left;
 }
 
@@ -272,21 +272,22 @@ footer a:hover{
 	text-shadow:1px 1px 1px black;
 }
 
-.turn-page.p4, .turn-page.p6{
-	background-image:-webkit-linear-gradient(left,  #E4E4E4 0%, #F7F7F7 100%);
-	background-image:-webkit-gradient(linear, left top, right top, color-stop(0, #E4E4E4), color-stop(1, #F7F7F7));
-	background-image:-moz-linear-gradient(left, #E4E4E4 0%, #F7F7F7 100%);
-	background-image:-o-linear-gradient(left, #E4E4E4 0%, #F7F7F7 100%);
-	background-image:-ms-linear-gradient(left, #E4E4E4 0%, #F7F7F7 100%);
+
+
+.turn-page.p6{
+	background:right bottom url(../pics/left.jpg);
 }
 
+.turn-page.p4 {
+	background:top left url(../pics/texture3.jpg);
+}
 .turn-page.p4 h1, .turn-page.p6 h1{
 	font-family: District Thin;
 	font-weight: normal;
 	font-size:60px;
 	margin:0px;
-	line-height:700px;
-	text-align:center;
+
+	text-align:left;
 }
 
 .turn-page.p5 .page-content{
@@ -296,6 +297,7 @@ footer a:hover{
 
 .turn-page.p7{
 	font:16px "Candara", arial;
+	background:left top url(../pics/right.jpg);
 	color:#333;
 }
 
@@ -309,8 +311,7 @@ footer a:hover{
 }
 
 .turn-page.p8{
-	background-image:url(../pics/backbg.jpg);
-	background-size:100% 100%;
+	background-image:url(../pics/backcover.jpg);
 }
 
 .turn-page.p8 .page-content{
@@ -499,3 +500,40 @@ pre .text{
 	-o-box-shadow:inset 0 0 10px #0057AC;
 	-ms-box-shadow:inset 0 0 10px #0057AC;
 }
+
+.webcam-image { 
+	width: 450px; 
+	padding: 20px; 
+	position: relative; 
+}
+.webcam-image-ul { 
+	padding: 5px; 
+	position: relative; 
+}
+#overview .video-tray { width:980px; margin:0 auto 12px; text-align:center; border:1px solid #fff; border-top:0;
+	background:#fff;
+	background:-webkit-gradient(linear, 0 0, 0 100, from(#fff), to(#f0f0f0));
+	background:-moz-linear-gradient(100% 100% 90deg, #f0f0f0, #fff);
+	-webkit-border-bottom-left-radius:4px; -moz-border-radius-bottomleft:4px; border-bottom-left-radius:4px; -webkit-border-bottom-right-radius:4px; -moz-border-radius-bottomright:4px; border-bottom-right-radius:4px;
+}
+
+.ifoot {
+
+	text-align:center;
+	font:50px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+.ifoot-d {
+	color:#666666;
+	text-align:center;
+	font:25px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.page2-title {
+	color:white;
+	background:#666;
+	font-size:40px;
+	font-weight: normal;
+	margin-top:450px;
+	float:left;
+}
+

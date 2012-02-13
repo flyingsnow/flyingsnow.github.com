@@ -13,34 +13,17 @@
 <script type="text/javascript" src="http://www.turnjs.com/libs/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="http://www.turnjs.com/libs/iscroll.js"></script>
 <script type="text/javascript" src="http://www.turnjs.com/turn.js"></script>
-<style type="text/css">
-		#surface {
-		background: #e9eaee;
-		border: 2px solid #ffffff;
-		width: 160px;
-		margin: 0 auto;
-		text-align: center;
-		box-shadow: 1px 2px 6px rgba(0,0,0,0.5);
-		-webkit-box-shadow: 1px 2px 6px rgba(0,0,0,0.5);
-		-webkit-border-radius: 15px;
-		-webkit-border-bottom-right-radius: 45px
-		}
 
-		.pages, #controllers{
-			margin-top:80px;
-		}
-		
-</style>
 </head>
 <body>
 <div id="viewport">
 <header style="display:none;">
 	<nav>
-		<a href="#home" class="on">Home</a>
-		<a href="#usage">Usage</a>
-		<a href="#get">Get turn.js</a>
-		<a href="#reference">Reference</a>
-		<a href="#credits">Credits</a>
+		<a href="#home" class="on"></a>
+		<a href="#usage"></a>
+		<a href="#get"></a>
+		<a href="#reference"></a>
+		<a href="#backcover"></a>
 	</nav>
 
 
@@ -53,9 +36,6 @@
 		<!-- Home -->
 		
 		<div>
-			<div>
-				<p> </p>
-			</div>
 		</div>
 		
 		<!-- Usage -->
@@ -63,9 +43,7 @@
 		<div> 
 
 			<div class="page-content">
-				<h1>那一年，我们天各一方</h1>
-				<div style="clear:both"></div>
-				<img src="pics/web-cam01.jpg" alt="web-cam"></img>
+				<h1>有时，你很安静</h1>
 			</div>
 
 		</div>
@@ -82,7 +60,7 @@
 			
 			<pre>
 <span class="sel-id">
-就算是千里之外
+ 就算是千里之外
  我们心一天天在靠近
 </span>
 <span class="sel-id">
@@ -103,7 +81,16 @@
 
 </pre>
 
-
+			<div style="float:right  margin-left:20px">
+			
+				<span style="float:right margin:40px"><img src="pics/web02.png" alt="web-cam02"  width="110px" /></span>
+				<img src="pics/web03.png" alt="web-cam03"  width="110px"/>
+				<img src="pics/web04.png" alt="web-cam04"  width="110px"/>
+				<img src="pics/web05.png" alt="web-cam05"  width="110px"/>
+	
+		
+				
+			</div>
 			</div>
 
 		</div>
@@ -111,78 +98,41 @@
 		<!-- Get turn.js 1 -->
 
 		<div> 
-			<h1>Get turn.js</h1>
+			<h1 class="page2-title">大多数时候，你很嚣张</h1>
 		</div>
 		
 		<!-- Get turn.js 2 -->
 
 		<div> 
-			<div class="page-content">
-				<div class="download">
-				<p><a href="turn.min.js" target="_blank" class="btn">Download light version</a></p>
-				<p><a href="https://github.com/blasten/turn.js" target="_blank" class="btn" style="margin:20px 0px;">Github repository</a></p>
-				</div>
-<pre>
-$ git clone git://github.com/blasten/turn.js.git
-</pre>
-			<h3>License</h3>
-			<p> turn.js is MIT Licensed </p>
-			<h3>Support development</h3>
-			<p>Is turn.js useful for you? <br />
-				Making a donation will help to improve turn.js.</p>
-
-			<form action="https://www.paypal.com/cgi-bin/webscr" id="donate-form" target="_blank" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-">
-	<p><a href="javascript:void(0)" onclick="$('#donate-form').submit();">Donate now</a></p>
-</form>
-
-
-
-			</div>
+		
+				<p class="ifoot">iFoot 2</p>
+				<p class="ifoot-d" >Powerful kick that keeps on fighting</p>
+				<img src="pics/texture4.png" width="600">
+			
 		 </div>
 		
 
 		<!-- Reference 1 -->
 		<div>
-			<h1>Quick Reference</h1>
+			<h2>望着天安门的方向</h2>
+			<h2>你默默的想着些啥</h2>
+			<h2>主席他老人家是分头？</h2>
+			<h2>还是背头?</h2>
+			<h2>今天</h2>
+			<h2>我终于寻到回答</h2>
 		</div>
 
 		<!-- Reference 2 -->
 		<div>
 			<div>
-			<div class="page-content">
-
-
-				<h3>Constructor</h3>
+			<div class="page-content" style="padding:0px 10px 10px 10px;margin-top:650px;text-align:right">
 
 
 <pre>
-$('selector').turn([options]);
-</pre>
-
-<p> Creates an instance of turn.</p>
-
-				<p> Parameters:
-					<ul>
-						<li><b>options</b></li>
-						<ul>
-							<li><b>page</b> (type: number, default: 1)</li>
-							<li><b>shadows</b> (type: boolean, default: true)</li>
-							<li><b>duration</b> (type: number, default: 600)</li>
-							<li><b>acceleration</b> (type: boolean, default: true)</li>
-						</ul>
-					</ul>	
-				</p>
-				
-				<h4>Calling methods or properties</h4>
-<pre>
-$('selector').turn(property | method [, parameters]);
+  有时，你还是一个爱思考的文艺青年
 </pre>
 
 
-				<p><b><a href="https://github.com/blasten/turn.js/wiki/Reference" target="_blank">Full Reference</a></b></p>
 <!--
 				<h3>Properties</h3>
 
@@ -293,33 +243,9 @@ $('selector').bind('end', function(e) {  });
 
 		<!--   -->
 		<div> 
-			<div class="page-content">
-				<b>Hello Everyone,</b> <br />
-
-				<p>I'm Emmanuel Garcia.</p>
-				
-				<p>
-				I'm native from Venezuela and currently living in Cincinnati, but I'm planning to move to Silicon Valley or New York.
-				I've been a front end developer for since years ago when I started working in my Bachelor's in CS.
-				</p>
-				<p>I also have eight years of experience developing scalable software in PHP.</p>
-			
-				<p>These are some of the things I love to work with: jQuery, node.js, express.js, socket.io, Coffee Script.</p>
-
-				<h2> turn.js </h2>
-				<p> I decided to develop turn.js, because it was neccesary as a part of an app for magazines. 
-					I spent a while working in the math for this effect.
-					 Being inspired by the effect of iBooks and Maps for iOS, I created two classes: one for manipulating the overall publication and another for each individual page. The last one is completely independent, in that it offers an API for creating its own implementations.</p>
-
-				<h2> Contact </h2>
-				
-				<p>
-					<a href="#credits" onclick="window.location.href=decodeURIComponent('mailto%3Ablasten%40gmail.com');">blasten&#64;gmail&#46;com</a>
-				</p>
-
-				<p>Any bug, comment or suggestion about turn.js, just click the 
-				<a href="https://docs.google.com/spreadsheet/embeddedform?formkey=dE1heFM0Tkw4VXlqbFo4VW5ERmtWSWc6MQ" target="_blank">feedback button</a>.</p>
-		
+			<div class="page-content" style="margin-top:560px">
+				<b>小白,</b> <br />
+				<p>I just wanna say I love you.</p>
 			</div>
 		</div>
 	</div>
@@ -351,7 +277,7 @@ $('selector').bind('end', function(e) {  });
 
 <script type="text/javascript">
 
-	window.pages = ['home', 'usage', 'usage', 'get', 'get', 'reference', 'reference', 'credits'];
+	window.pages = ['home', 'usage', 'usage', 'get', 'get', 'reference', 'reference', 'backcover'];
 
 
 	function getURL() {
